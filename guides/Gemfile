@@ -8,7 +8,7 @@ gem 'nokogiri'
 gem 'nanoc', '3.6.3'
 gem 'nanoc-toolbox'
 gem 'rake'
-gem 'thin'
+gem 'thin', '>= 1.7.0'
 gem "yajl-ruby"
 gem 'sass'
 gem 'bourbon'
@@ -17,7 +17,7 @@ gem 'neat'
 group :development do
   gem 'listen'
   gem 'rb-fsevent'
-  gem 'adsf'
+  gem 'adsf', '>= 1.2.0'
   gem 'fssm'
   gem 'rspec'
 end
