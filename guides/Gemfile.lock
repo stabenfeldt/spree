@@ -72,7 +72,7 @@ GEM
     thor (0.19.1)
     timers (4.0.1)
       hitimes
-    yajl-ruby (1.2.1)
+    yajl-ruby (1.4.2)
 
 PLATFORMS
   ruby
@@ -96,4 +96,7 @@ DEPENDENCIES
   rspec
   sass
   thin
-  yajl-ruby
+  yajl-ruby (>= 1.4.2)
+
+BUNDLED WITH
+   2.1.4
